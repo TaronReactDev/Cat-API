@@ -1,0 +1,49 @@
+@media only screen and (max-width: 890px) {
+
+  $font-size: 16px;
+
+  .sidebar-container {
+    order: 2;
+
+    &__nav {
+      display: none;
+    }
+    &__burger {
+      display: block;
+    }
+  }
+
+  .content-container {
+    order: 1;
+
+    &__ul__item {
+      width: 150px;
+      height: 150px;
+      margin: 15px;
+    }
+
+    &__btn {
+      width: 120px;
+      font-weight: 200;
+      font-size: $font-size;
+    }
+  }
+
+  .slider-container__img {
+    max-width: 400px;
+    height: 400px;
+
+  }
+
+  .routing{
+    display: none!important;
+  }
+}
+
+
+@media only screen and (min-width: 890px) {
+
+  .sidebar-container__burger-nav{
+    display: none !important;
+  }
+}

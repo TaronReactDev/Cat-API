@@ -1,0 +1,21 @@
+@media only screen and (max-width: 540px) {
+
+  $font-size:12px;
+
+  .content-container__ul__item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .content-container__btn {
+    width: 100px;
+    font-weight: 150;
+    font-size: $font-size;
+  }
+  .slider-container__img{
+    max-width: 300px;
+    height: 300px;
+
+  }
+}
