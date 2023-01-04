@@ -1,6 +1,6 @@
-$background-color:#EDF2EC;
-$text-color:#E06733;
-$main-font:'Inter';
+$background-color: #EDF2EC;
+$text-color: #E06733;
+$main-font: 'Inter';
 $font-size: 20px;
 
 body {
@@ -22,7 +22,7 @@ main {
   padding: 25px;
   background-color: $background-color;
   display: flex;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 ul {
@@ -30,14 +30,15 @@ ul {
   padding: 0;
 }
 
-.open{
+.open {
   display: flex !important;
 }
 
-.close{
+.close {
   display: none !important;
 }
-.display-none{
+
+.display-none {
   display: none;
 }
 
@@ -54,5 +55,22 @@ ul {
   &:hover {
     background: $text-color;
     color: $background-color;
+  }
+}
+
+.scroll-to-top {
+  width: 60px;
+  height: 60px;
+  background-color: $text-color;
+  color: $background-color;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+
+  align-self: end;
+
+  img {
+    transform: rotate(270deg);
+
   }
 }
